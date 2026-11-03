@@ -1,0 +1,265 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Angket Operator Sekolah - SMPN Cileunyi</title>
+<style>
+:root{--bg:#f4f6fa;--card:#fff;--ink:#1d2433;--mut:#5d6779;--line:#d9dee8;--acc:#1f5fbf;--accbg:#e8f0fc;--bad:#c0392b;--ok:#1e8449}
+@media(prefers-color-scheme:dark){:root{--bg:#12151c;--card:#1b202b;--ink:#e8ebf2;--mut:#9aa4b6;--line:#2e3646;--acc:#6aa3f5;--accbg:#22314d;--bad:#ff7b6b;--ok:#5fd08a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{background:var(--acc);color:#fff;padding:20px 16px}
+header h1{margin:0 0 4px;font-size:1.25rem}header p{margin:0;opacity:.9;font-size:.9rem}
+#bar{position:sticky;top:0;height:5px;background:var(--line);z-index:5}#bar i{display:block;height:100%;width:0;background:var(--ok);transition:width .3s}
+main{max-width:820px;margin:0 auto;padding:16px}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 16px;margin-bottom:16px}
+section>h2{margin:0 0 6px;font-size:1.1rem;color:var(--acc)}
+.desc{color:var(--mut);font-size:.9rem;margin:0 0 14px;white-space:pre-line}
+h3{margin:22px 0 8px;font-size:1rem;padding-top:12px;border-top:1px dashed var(--line)}
+.q{margin:0 0 14px}.q>label,.q>.lb{display:block;font-weight:600;font-size:.95rem;margin-bottom:4px}
+.req::after{content:" *";color:var(--bad)}
+input[type=text],textarea,select{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--acc);outline-offset:0}
+.bad{border-color:var(--bad)!important;background:color-mix(in srgb,var(--bad) 8%,var(--bg))!important}
+.opts label{display:flex;gap:8px;align-items:center;padding:5px 0;font-weight:400}
+.opts input[type=text]{width:auto;flex:1;min-width:120px}
+.tg{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px 10px}
+.tg .q{margin:0}.tg .q>label{font-size:.8rem;font-weight:500;color:var(--mut)}
+.lk{border:1px solid var(--line);border-radius:10px;padding:10px;margin-bottom:10px}
+.lk p{margin:0 0 8px;font-size:.95rem}.lk p b{color:var(--acc)}
+.pills{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.pills label{position:relative;text-align:center;border:1px solid var(--line);border-radius:8px;padding:7px 2px;font-size:.78rem;cursor:pointer;user-select:none}
+.pills input{position:absolute;opacity:0}
+.pills label:has(input:checked){background:var(--acc);color:#fff;border-color:var(--acc)}
+.pills label:has(input:focus-visible){outline:2px solid var(--acc)}
+.pills small{display:block;opacity:.75;font-size:.68rem}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+button,.btn{background:var(--acc);color:#fff;border:0;border-radius:8px;padding:11px 18px;font:inherit;font-weight:600;cursor:pointer}
+button.sec{background:var(--accbg);color:var(--acc)}
+#msg{margin-top:10px;font-size:.9rem}.err{color:var(--bad)}.ok{color:var(--ok)}
+footer{text-align:center;color:var(--mut);font-size:.8rem;padding:10px 16px 40px}
+</style>
+</head>
+<body>
+<header>
+<h1>Angket Operator Sekolah</h1>
+<p>Proyeksi Kebutuhan Ruang Belajar SMP Negeri Berbasis Dinamika Kependudukan dan Evaluasi Kebijakan Fasilitas Pendidikan, Kecamatan Cileunyi, Kabupaten Bandung</p>
+</header>
+<div id="bar"><i></i></div>
+<main>
+<section>
+<h2>Surat Pengantar dan Persetujuan</h2>
+<p class="desc">Kepada Yth. Bapak/Ibu Operator Sekolah (Operator Dapodik/Pengelola Data) SMP Negeri se-Kecamatan Cileunyi, Kabupaten Bandung.
+
+Saya, Thalia Yasmine P. (NIM 2317227), mahasiswa Magister Administrasi Pendidikan, FIP, Universitas Pendidikan Indonesia, sedang menyusun tesis tentang proyeksi kebutuhan ruang belajar SMP Negeri 2026-2030. Angket ini bertujuan (1) memverifikasi dan melengkapi data faktual sekolah, dan (2) menggali persepsi dan pengalaman Bapak/Ibu. Waktu pengisian sekitar 40-50 menit.
+
+Jaminan etika: keikutsertaan bersifat sukarela dan boleh berhenti kapan saja; identitas dirahasiakan dan hasil dilaporkan secara agregat (data per sekolah tidak dipublikasikan sebagai penilaian kinerja); data hanya untuk kepentingan akademik.</p>
+<div class="q opts"><label><input type="checkbox" id="consent" data-key="Persetujuan"> Saya telah membaca dan memahami penjelasan di atas, dan bersedia menjadi responden.</label></div>
+<p class="desc">Petunjuk: Bagian B diisi dengan angka apa adanya; tulis <b>TT</b> bila tidak tersedia dan awali dengan <b>~</b> bila perkiraan (contoh: ~120). Bagian C berdasarkan pengalaman tiga tahun terakhir; tidak ada jawaban benar atau salah. Isian tersimpan otomatis di perangkat ini.</p>
+</section>
+<form id="f" autocomplete="off"></form>
+
+<section id="done">
+<h2>Selesai</h2>
+<p class="desc">Tekan tombol di bawah untuk mengunduh jawaban sebagai file Excel (.xlsx), lalu kirimkan file tersebut kepada peneliti.</p>
+<div class="actions">
+<button type="button" id="bx">Unduh Excel (.xlsx)</button>
+<button type="button" id="bj" class="sec">Unduh cadangan (.json)</button>
+<button type="button" id="br" class="sec">Kosongkan isian</button>
+</div>
+<div id="msg"></div>
+</section>
+
+<section>
+<h2>Untuk Peneliti: Gabungkan Banyak Jawaban</h2>
+<p class="desc">Pilih beberapa file .json cadangan dari responden. Semua digabung menjadi satu file Excel, satu baris per responden.</p>
+<input type="file" id="mf" accept=".json" multiple>
+<div class="actions"><button type="button" id="bm" class="sec">Gabungkan menjadi Excel</button></div>
+<div id="mmsg"></div>
+</section>
+</main>
+<footer>Kontak peneliti: Thalia Yasmine P. - [isi nomor WhatsApp/e-mail]</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script>
+(function(){
+var TA=['2021/2022','2022/2023','2023/2024','2024/2025','2025/2026','2026/2027'];
+var DESA=['Cileunyi Wetan','Cileunyi Kulon','Cimekar','Cinunuk','Cibiru Wetan','Cibiru Kulon (Cibiru Hilir)'];
+var NUM=/^(TT|~?[0-9]+([.,][0-9]+)?)$/i, YEAR=/^(TT|[0-9]{4})$/i;
+var SK=[['1','STS','Sangat Tidak Setuju'],['2','TS','Tidak Setuju'],['3','R','Ragu-ragu'],['4','S','Setuju'],['5','SS','Sangat Setuju']];
+var KAMUS=[];
+function T(k,l,r){return {t:'text',k:k,l:l,r:r}}
+function N(k,l){return {t:'num',k:k,l:l||k.split(' | ').pop(),r:1}}
+function R(k,l,o,r,other){return {t:'radio',k:k,l:l,o:o,r:r,other:other}}
+function C(k,l,o,r){return {t:'check',k:k,l:l,o:o,r:r}}
+function G(items){return {t:'grid',items:items}}
+function H(x){return {t:'h',l:x}}
+var S=[];
+// ---- A
+S.push({id:'A',title:'Bagian A. Identitas Responden dan Sekolah',items:[
+T('A0 Nama responden','A0. Nama responden (boleh inisial)',1),
+T('A1 Nama sekolah','A1. Nama sekolah',1),
+R('A2 Desa/kelurahan','A2. Desa/kelurahan lokasi sekolah',DESA,1),
+R('A3 Status sekolah','A3. Status sekolah',['Negeri'],1),
+{t:'num',k:'A4 Tahun operasi',l:'A4. Tahun sekolah mulai beroperasi (contoh: 1998)',r:1,re:/^[0-9]{4}$/},
+R('A5 Jabatan','A5. Jabatan responden',['Operator Dapodik','Staf tata usaha','Wakil kepala sekolah bidang sarpras/kurikulum'],1,1),
+R('A6 Jenis kelamin','A6. Jenis kelamin',['Laki-laki','Perempuan'],1),
+R('A7 Usia','A7. Usia',['≤ 30 th','31-40 th','41-50 th','> 50 th'],1),
+R('A8 Pendidikan','A8. Pendidikan terakhir',['SMA/SMK','D3','S1','S2'],1),
+R('A9 Status kepegawaian','A9. Status kepegawaian',['PNS','PPPK','Honorer/GTT/PTT'],1,1),
+R('A10 Lama bertugas','A10. Lama bertugas sebagai operator/pengelola data',['< 1 th','1-3 th','4-6 th','> 6 th'],1),
+R('A11 Pelatihan Dapodik','A11. Pelatihan/bimtek Dapodik yang pernah diikuti (3 tahun terakhir)',['Belum pernah','1 kali','2 kali','≥ 3 kali'],1),
+R('A12 Rangkap tugas','A12. Apakah operator merangkap tugas lain? (bila ya, isi pada Lainnya)',['Tidak'],1,1),
+R('A13 Frekuensi pembaruan','A13. Frekuensi pembaruan data Dapodik',['Setiap bulan','Setiap semester','Hanya saat diminta'],1,1),
+R('A14 Kemampuan olah data','A14. Kemampuan mengolah data (Excel/tabel pivot/aplikasi peta)',['Dasar','Menengah','Mahir'],1)
+]});
+// ---- B
+var B=[];
+B.push({t:'desc',l:'Isi dengan data Dapodik dan arsip sekolah. Tahun ajaran berjalan 2026/2027. Angka saja; TT bila tidak tersedia; ~ bila perkiraan.'});
+function perTahun(code,title,fields,extra){
+  B.push(H(code+'. '+title));
+  TA.forEach(function(t){
+    var g=fields.map(function(f){return N(code+' | '+t+' | '+f)});
+    if(extra)g.push(R(code+' | '+t+' | '+extra,extra,['Ya','Tidak','TT'],1));
+    B.push({t:'lbl',l:'Tahun ajaran '+t});B.push(G2(g));
+  });
+}
+function G2(g){return {t:'tg',items:g}}
+perTahun('B1','Jumlah Peserta Didik (siswa aktif per 31 Agustus)',['Kelas VII','Kelas VIII','Kelas IX','Total','Laki-laki','Perempuan']);
+perTahun('B2','Rombongan Belajar',['Rombel VII','Rombel VIII','Rombel IX','Total rombel','Rata-rata siswa per rombel','Rombel terpadat (jumlah siswa)']);
+perTahun('B3','Ruang Kelas dan Penggunaannya',['Total ruang kelas','Kondisi baik','Rusak ringan','Rusak sedang','Rusak berat','Ruang non-kelas dipakai belajar (unit)'],'Sistem shift');
+B.push(G2([N('B3 | Luas rata-rata satu ruang kelas (m²)','Luas rata-rata ruang kelas (m²)'),N('B3 | Rombel belajar sore/bergiliran tahun berjalan','Rombel sore/bergiliran (tahun berjalan)')]));
+B.push(T('B3 | Jenis ruang non-kelas yang dipakai belajar','Ruang non-kelas yang dipakai belajar (sebutkan jenisnya)'));
+perTahun('B4','Penerimaan Peserta Didik Baru (PPDB/SPMB)',['Daya tampung ditetapkan','Rombel kelas VII dibuka','Jumlah pendaftar','Jumlah diterima','Tidak tertampung','Mutasi masuk','Mutasi keluar']);
+B.push(H('B5. Domisili dan Jarak Tempuh Peserta Didik (kelas VII-IX, tahun berjalan)'));
+DESA.concat(['Luar Kecamatan Cileunyi']).forEach(function(d){
+  B.push({t:'lbl',l:d});
+  B.push(G2([N('B5 | '+d+' | Jumlah siswa','Jumlah siswa'),N('B5 | '+d+' | Jarak rata-rata (km)','Jarak rata-rata (km)'),N('B5 | '+d+' | Jarak terjauh (km)','Jarak terjauh (km)')]));
+});
+B.push(T('B5 | Kecamatan terbanyak (luar Cileunyi)','Kecamatan terbanyak asal siswa dari luar Kecamatan Cileunyi'));
+B.push({t:'lbl',l:'Jumlah siswa menurut jarak rumah ke sekolah'});
+B.push(G2(['≤ 1 km','> 1-3 km','> 3-6 km','> 6 km'].map(function(x){return N('B5 | Jarak '+x,x)})));
+B.push({t:'lbl',l:'Jumlah siswa menurut moda ke sekolah'});
+B.push(G2(['Jalan kaki','Sepeda','Sepeda motor','Angkutan umum','Antar-jemput/mobil','Lainnya'].map(function(x){return N('B5 | Moda '+x,x)})));
+B.push(H('B6. Program Penambahan Ruang Kelas Baru (RKB)'));
+B.push({t:'desc',l:'Program 2 dan 3 boleh dikosongkan bila tidak ada.'});
+for(var i=1;i<=3;i++){var p='B6 | Program '+i+' | ';
+ B.push({t:'lbl',l:'Program '+i});
+ B.push(G2([
+  {t:'num',k:p+'Tahun',l:'Tahun',r:i==1,re:YEAR},
+  {t:'num',k:p+'RKB diusulkan (unit)',l:'RKB diusulkan (unit)',r:i==1},
+  {t:'num',k:p+'RKB terealisasi (unit)',l:'RKB terealisasi (unit)',r:i==1},
+  R(p+'Sumber dana','Sumber dana',['DAK','APBD','TT'],0,1),
+  R(p+'Status','Status',['Selesai','Berjalan','Rencana','TT'],0),
+  T(p+'Mulai-selesai','Mulai-selesai (bln/thn)'),
+  {t:'num',k:p+'Ruang kelas sebelum',l:'Ruang kelas sebelum',r:i==1},
+  {t:'num',k:p+'Ruang kelas sesudah',l:'Ruang kelas sesudah',r:i==1}]));}
+B.push(G2([N('B6 | RKB diusulkan belum terealisasi (unit)','RKB diusulkan, belum terealisasi (unit)'),N('B6 | Rencana usulan RKB tahun depan (unit)','Rencana usulan RKB tahun depan (unit)')]));
+B.push(H('B7. Lahan dan Peluang Pengembangan'));
+B.push(G2([N('B7 | Luas lahan sekolah (m²)','Luas lahan sekolah (m²)'),N('B7 | Luas lantai bangunan (m²)','Luas lantai bangunan (m²)'),N('B7 | Lahan kosong dapat dibangun (m²)','Lahan kosong dapat dibangun (m²)')]));
+B.push(R('B7 | Status lahan','Status lahan',['Milik pemda bersertifikat','Hibah/wakaf belum bersertifikat','Sewa/pinjam','Dalam sengketa'],1));
+B.push(R('B7 | Bangunan dapat ditingkat','Bangunan dapat ditingkat (tambah lantai)',['Ya','Tidak','Belum pernah dikaji'],1));
+B.push(C('B7 | Gangguan lingkungan','Gangguan lingkungan (boleh lebih dari satu)',['Banjir/genangan','Longsor/lereng curam','Kebisingan jalan raya','Tidak ada'],1));
+B.push(H('B8. Sekolah Dasar Asal Peserta Didik Kelas VII (tahun berjalan)'));
+B.push({t:'desc',l:'Isi hingga 5 SD/MI terbanyak. Baris 2-5 boleh dikosongkan.'});
+for(var j=1;j<=5;j++){var q='B8 | SD/MI '+j+' | ';
+ B.push({t:'lbl',l:'SD/MI '+j});
+ B.push(G2([T(q+'Nama','Nama SD/MI asal',j==1),T(q+'Desa','Desa lokasi SD',j==1),{t:'num',k:q+'Jumlah siswa',l:'Jumlah siswa diterima',r:j==1}]));}
+B.push(G2([N('B8 | SD/MI lainnya (gabungan)','SD/MI lainnya, jumlah gabungan (siswa)')]));
+B.push({t:'area',k:'B | Keterangan/sumber data',l:'Keterangan/sumber data (bila berbeda dari Dapodik)'});
+S.push({id:'B',title:'Bagian B. Data Faktual Sekolah (B1-B8)',items:B});
+// ---- C
+var CS=[
+['C1. Kualitas dan Akurasi Data Dapodik',1,['Data peserta didik di Dapodik sekolah saya dimutakhirkan paling sedikit setiap semester.','Jumlah rombel pada Dapodik sama dengan jumlah kelas yang benar-benar berjalan di sekolah.','Jumlah dan kondisi ruang kelas pada Dapodik sesuai dengan keadaan fisik di lapangan.','Saya memverifikasi dan memvalidasi data sebelum disinkronkan ke server Dapodik.','Masih terdapat data peserta didik yang belum sesuai (ganda, mutasi belum tercatat, atau alamat tidak akurat).','Kendala aplikasi atau jaringan membuat pembaruan data di sekolah saya sering terlambat.','Kepala sekolah memeriksa dan mengesahkan data sebelum data dikirim.']],
+['C2. Tekanan Kapasitas Rombel dan Ruang Kelas',8,['Jumlah ruang kelas di sekolah saya mencukupi seluruh rombel yang ada.','Rata-rata jumlah siswa per rombel di sekolah saya melebihi 32 orang.','Sekolah pernah memakai ruang non-kelas (laboratorium, perpustakaan, aula) sebagai ruang belajar.','Sekolah pernah atau sedang menjalankan pembelajaran bergiliran (shift) karena keterbatasan ruang.','Kepadatan siswa dalam kelas mengurangi efektivitas interaksi guru dan siswa.','Sebagian ruang kelas tidak dapat dipakai penuh karena kerusakan.','Ruang kelas yang ada masih mampu menampung kenaikan jumlah siswa baru pada tahun ajaran mendatang.','Jumlah rombel antartingkat (kelas VII, VIII, IX) tidak seimbang sehingga pengaturan ruang menjadi sulit.']],
+['C3. Dinamika PPDB dan Pertumbuhan Peserta Didik',16,['Jumlah pendaftar di sekolah saya cenderung meningkat dalam lima tahun terakhir.','Jumlah pendaftar setiap tahun melebihi daya tampung yang ditetapkan sekolah.','Calon siswa yang memenuhi syarat domisili harus ditolak karena ruang kelas terbatas.','Jumlah rombel kelas VII ditetapkan berdasarkan jumlah ruang kelas yang tersedia, bukan berdasarkan jumlah pendaftar.','Selama tahun ajaran berjalan, sekolah menerima tambahan siswa di luar jalur PPDB (mutasi masuk atau penempatan).','Tumbuhnya permukiman baru di sekitar sekolah meningkatkan jumlah calon peserta didik.','Sebagian besar lulusan SD di sekitar sekolah memilih melanjutkan ke sekolah kami.']],
+['C4. Implementasi Program Penambahan Ruang Kelas',23,['Sekolah mendapat informasi tentang program penambahan ruang kelas sejak tahap perencanaan.','Usulan kebutuhan ruang kelas sekolah disusun berdasarkan data Dapodik.','Jumlah ruang kelas yang dibangun sesuai dengan jumlah yang diusulkan sekolah.','Pembangunan ruang kelas selesai tepat waktu sesuai jadwal.','Kualitas bangunan ruang kelas baru sesuai spesifikasi dan layak digunakan.','Ruang kelas baru telah mengurangi kepadatan rombel secara nyata.','Sekolah penerima program ditentukan berdasarkan tingkat kebutuhan yang sebenarnya.','Program penambahan ruang kelas belum menjawab kebutuhan ruang kelas sekolah saya.','Pembangunan ruang kelas tidak disertai pengadaan sarana pendukung (meubelair, listrik, sanitasi).']],
+['C5. Kesesuaian dengan Standar',32,['Saya mengetahui batas maksimum siswa per rombel menurut SNP (28 siswa) dan SPM (32 siswa).','Jumlah siswa per rombel di sekolah saya sudah memenuhi batas SPM (maksimal 32 siswa).','Jumlah siswa per rombel di sekolah saya sudah memenuhi batas ideal SNP (maksimal 28 siswa).','Luas ruang kelas di sekolah saya memenuhi standar luas minimum per peserta didik.','Sekolah masih memiliki lahan yang memungkinkan penambahan ruang kelas baru.']],
+['C6. Aksesibilitas dan Sebaran Peserta Didik',37,['Sebagian besar siswa bertempat tinggal di desa/kelurahan tempat sekolah berada.','Cukup banyak siswa yang menempuh perjalanan lebih dari 3 km ke sekolah.','Siswa mudah menjangkau sekolah dengan angkutan umum atau antar-jemput.','Cukup banyak siswa berasal dari luar Kecamatan Cileunyi.','Jarak tempuh menjadi penyebab siswa terlambat atau tidak hadir.','Menurut saya, masih ada permukiman di sekitar sekolah yang belum terlayani SMP negeri.','Akses jalan menuju sekolah aman dan memadai bagi siswa.','Banjir, genangan, atau longsor pernah mengganggu kegiatan belajar di sekolah.']],
+['C7. Perencanaan dan Pemanfaatan Data di Sekolah',45,['Sekolah menyusun perkiraan jumlah siswa untuk tiga sampai lima tahun ke depan.','Data Dapodik dijadikan dasar penyusunan RKAS dan usulan sarana prasarana.','Sekolah berkoordinasi dengan SD/MI sekitar untuk memperkirakan jumlah calon siswa.','Sekolah menyampaikan kebutuhan ruang kelas secara tertulis kepada Dinas Pendidikan.','Saya mampu mengolah data Dapodik menjadi tabel atau grafik untuk keperluan perencanaan.','Hasil proyeksi berbasis data akan membantu sekolah meyakinkan dinas dalam mengajukan kebutuhan ruang kelas.']],
+['C8. Dukungan Kebijakan dan Tata Kelola',51,['Dinas Pendidikan merespons usulan ruang kelas yang disampaikan sekolah.','Prosedur dan kriteria penentuan prioritas pembangunan ruang kelas jelas bagi sekolah.','Dinas memberikan umpan balik atas data yang dikirimkan sekolah.','Keterbatasan anggaran daerah merupakan hambatan utama pemenuhan ruang kelas di sekolah saya.','Pembangunan ruang kelas cenderung dilakukan setelah masalah muncul, bukan sebagai antisipasi.','Saya bersedia memanfaatkan hasil proyeksi penelitian ini sebagai bahan masukan perencanaan sekolah.']]
+];
+var CI=[{t:'desc',l:'Pilih satu jawaban untuk setiap pernyataan. SS = Sangat Setuju (5), S = Setuju (4), R = Ragu-ragu (3), TS = Tidak Setuju (2), STS = Sangat Tidak Setuju (1).'}];
+CS.forEach(function(s){CI.push(H(s[0]));s[2].forEach(function(x,i){var n=s[1]+i;var k='C'+(n<10?'0':'')+n;KAMUS.push([k,s[0],x]);CI.push({t:'likert',k:k,n:n,l:x,r:1});});});
+S.push({id:'C',title:'Bagian C. Persepsi dan Pengalaman Operator Sekolah',items:CI});
+// ---- D
+var DQ=['Pada tahun ajaran mana sekolah paling kekurangan ruang kelas, dan bagaimana sekolah mengatasinya?','Bagaimana cara sekolah menentukan jumlah rombel kelas VII setiap tahun, dan siapa yang memutuskan?','Menurut pengalaman Bapak/Ibu, apa kendala utama dalam menjaga keakuratan data Dapodik terkait peserta didik, rombel, dan ruang kelas?','Bagaimana pelaksanaan program penambahan ruang kelas di sekolah ini (proses usulan, waktu, kualitas, dampak)? Sebutkan kekurangan yang perlu diperbaiki.','Adakah wilayah di sekitar sekolah yang menurut Bapak/Ibu membutuhkan sekolah SMP negeri baru? Sebutkan wilayah dan alasannya.','Data atau informasi apa yang paling Bapak/Ibu butuhkan dari hasil penelitian ini agar bermanfaat bagi perencanaan sekolah?','Saran Bapak/Ibu kepada Dinas Pendidikan terkait pemenuhan ruang kelas SMP negeri di Kecamatan Cileunyi.'];
+S.push({id:'D',title:'Bagian D. Pertanyaan Terbuka',items:DQ.map(function(q,i){return {t:'area',k:'D'+(i+1),l:(i+1)+'. '+q}})});
+
+// ---- render
+var F=document.getElementById('f'),FIELDS=[];
+function el(tag,cls,html){var e=document.createElement(tag);if(cls)e.className=cls;if(html!=null)e.innerHTML=html;return e}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+var uid=0;
+function field(it){
+  var d=el('div','q'),lab=el('label',it.r?'req':'');lab.innerHTML=esc(it.l);d.appendChild(lab);var f={it:it,box:d};
+  if(it.t==='text'||it.t==='num'){var i=el('input');i.type='text';if(it.t==='num'){i.inputMode='text';i.placeholder='angka / ~angka / TT'}i.dataset.k=it.k;d.appendChild(i);f.get=function(){return i.value.trim()};f.set=function(v){i.value=v||''};f.inp=[i];
+    if(it.t==='num')i.addEventListener('blur',function(){var re=it.re||NUM;i.classList.toggle('bad',!!i.value.trim()&&!re.test(i.value.trim()))});}
+  else if(it.t==='area'){var a=el('textarea');a.rows=3;d.appendChild(a);f.get=function(){return a.value.trim()};f.set=function(v){a.value=v||''};f.inp=[a]}
+  else if(it.t==='radio'||it.t==='check'){var w=el('div','opts'),nm='r'+(uid++),ty=it.t==='radio'?'radio':'checkbox',ins=[],ot=null,oc=null;
+    it.o.forEach(function(o){var l=el('label'),i=el('input');i.type=ty;i.name=nm;i.value=o;l.appendChild(i);l.appendChild(document.createTextNode(o));w.appendChild(l);ins.push(i)});
+    if(it.other){var l=el('label');oc=el('input');oc.type=ty;oc.name=nm;l.appendChild(oc);l.appendChild(document.createTextNode('Lainnya: '));ot=el('input');ot.type='text';l.appendChild(ot);w.appendChild(l);ot.addEventListener('input',function(){if(ot.value)oc.checked=true})}
+    d.appendChild(w);
+    f.get=function(){var v=[];ins.forEach(function(i){if(i.checked)v.push(i.value)});if(oc&&oc.checked&&ot.value.trim())v.push(ot.value.trim());return v.join('; ')};
+    f.set=function(val){var parts=(val||'').split('; ').filter(Boolean);ins.forEach(function(i){i.checked=parts.indexOf(i.value)>-1});if(oc){var extra=parts.filter(function(p){return it.o.indexOf(p)<0});oc.checked=extra.length>0;ot.value=extra.join('; ')}};
+    f.inp=ins.concat(oc?[oc,ot]:[]);}
+  return f;
+}
+S.forEach(function(sec){
+  var s=el('section');s.id='sec'+sec.id;s.appendChild(el('h2',null,esc(sec.title)));F.appendChild(s);
+  sec.items.forEach(function(it){
+    if(it.t==='h'){s.appendChild(el('h3',null,esc(it.l)))}
+    else if(it.t==='lbl'){var p=el('div','lb');p.style.fontWeight='600';p.style.margin='10px 0 4px';p.textContent=it.l;s.appendChild(p)}
+    else if(it.t==='desc'){s.appendChild(el('p','desc',esc(it.l)))}
+    else if(it.t==='tg'){var g=el('div','tg');it.items.forEach(function(x){var f=field(x);FIELDS.push(f);g.appendChild(f.box)});s.appendChild(g)}
+    else if(it.t==='likert'){
+      var b=el('div','lk');b.innerHTML='<p><b>'+it.n+'.</b> '+esc(it.l)+'</p>';var pl=el('div','pills'),ins=[];
+      SK.forEach(function(o){var l=el('label'),i=el('input');i.type='radio';i.name='c'+it.n;i.value=o[0];l.appendChild(i);l.insertAdjacentHTML('beforeend',o[1]+'<small>'+o[0]+'</small>');l.title=o[2];pl.appendChild(l);ins.push(i)});
+      b.appendChild(pl);s.appendChild(b);
+      FIELDS.push({it:it,box:b,inp:ins,get:function(){for(var i=0;i<ins.length;i++)if(ins[i].checked)return ins[i].value;return ''},set:function(v){ins.forEach(function(i){i.checked=i.value==v})}});
+    } else {var f=field(it);FIELDS.push(f);s.appendChild(f.box)}
+  });
+});
+
+// ---- data
+var consent=document.getElementById('consent');
+function collect(){var d={};d['Waktu pengisian']=new Date().toLocaleString('id-ID');d['Persetujuan']=consent.checked?'Bersedia':'';FIELDS.forEach(function(f){d[f.it.k]=f.get()});return d}
+function fill(d){if(!d)return;consent.checked=d['Persetujuan']==='Bersedia';FIELDS.forEach(function(f){if(d[f.it.k]!=null)f.set(d[f.it.k])})}
+var KEY='angket_operator_cileunyi_v1';
+function save(){try{localStorage.setItem(KEY,JSON.stringify(collect()))}catch(e){}progress()}
+function progress(){var req=FIELDS.filter(function(f){return f.it.r}),n=req.filter(function(f){return f.get()!==''}).length;document.querySelector('#bar i').style.width=(req.length?Math.round(n/req.length*100):0)+'%'}
+F.addEventListener('input',save);F.addEventListener('change',save);consent.addEventListener('change',save);
+try{var sv=localStorage.getItem(KEY);if(sv)fill(JSON.parse(sv))}catch(e){}
+progress();
+
+// ---- export
+var msg=document.getElementById('msg');
+function check(d){var miss=[];if(!consent.checked)miss.push('Persetujuan responden');
+  FIELDS.forEach(function(f){var v=f.get();f.box.classList.remove('bad');if(f.it.r&&v===''){miss.push(f.it.k);f.box.style.outline='1px solid var(--bad)'}else f.box.style.outline='';
+   if(f.it.t==='num'&&v&&!(f.it.re||NUM).test(v))miss.push(f.it.k+' (format tidak valid)')});return miss}
+function fname(d,ext){var s=(d['A1 Nama sekolah']||'responden').replace(/[^\w\-]+/g,'_').slice(0,40);return 'Angket_'+s+'.'+ext}
+function download(blob,name){var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},500)}
+function toXlsx(rows,name){
+  if(typeof XLSX==='undefined'){var h=Object.keys(rows[0]),csv=[h].concat(rows.map(function(r){return h.map(function(k){return r[k]})})).map(function(r){return r.map(function(c){return '"'+String(c==null?'':c).replace(/"/g,'""')+'"'}).join(',')}).join('\n');download(new Blob(['﻿'+csv],{type:'text/csv'}),name.replace('.xlsx','.csv'));return 'csv'}
+  var hs=[];rows.forEach(function(r){Object.keys(r).forEach(function(k){if(hs.indexOf(k)<0)hs.push(k)})});
+  var wb=XLSX.utils.book_new(),ws=XLSX.utils.json_to_sheet(rows,{header:hs});ws['!cols']=hs.map(function(h){return {wch:Math.min(Math.max(h.length,10),28)}});ws['!freeze']={xSplit:0,ySplit:1};
+  XLSX.utils.book_append_sheet(wb,ws,'Tanggapan');
+  var kd=[['Kode','Variabel','Pernyataan (skor 1-5; butir 5,6,8,14,30,31,38,40-42,44,54,55 bersifat negatif: reverse score saat analisis)']].concat(KAMUS);
+  XLSX.utils.book_append_sheet(wb,XLSX.utils.aoa_to_sheet(kd),'Kamus Bagian C');
+  XLSX.writeFile(wb,name);return 'xlsx'}
+document.getElementById('bx').onclick=function(){var d=collect(),m=check(d);
+  if(m.length&&!confirm('Masih ada '+m.length+' isian wajib/format yang belum sesuai (ditandai merah). Tetap unduh?')){msg.className='err';msg.textContent='Lengkapi: '+m.slice(0,8).join(', ')+(m.length>8?', ...':'');return}
+  var t=toXlsx([d],fname(d,'xlsx'));msg.className='ok';msg.textContent='File '+t.toUpperCase()+' berhasil diunduh. Kirimkan kepada peneliti.'};
+document.getElementById('bj').onclick=function(){var d=collect();download(new Blob([JSON.stringify(d,null,1)],{type:'application/json'}),fname(d,'json'));msg.className='ok';msg.textContent='Cadangan JSON diunduh.'};
+document.getElementById('br').onclick=function(){if(!confirm('Hapus semua isian di perangkat ini?'))return;try{localStorage.removeItem(KEY)}catch(e){}location.reload()};
+document.getElementById('bm').onclick=function(){
+  var fs=document.getElementById('mf').files,out=document.getElementById('mmsg');if(!fs.length){out.className='err';out.textContent='Pilih file .json terlebih dahulu.';return}
+  var rows=[],n=0;Array.prototype.forEach.call(fs,function(f){var r=new FileReader();r.onload=function(){try{rows.push(JSON.parse(r.result))}catch(e){}if(++n===fs.length){if(!rows.length){out.className='err';out.textContent='Tidak ada file valid.';return}toXlsx(rows,'Gabungan_Angket_Operator.xlsx');out.className='ok';out.textContent=rows.length+' responden digabung dan diunduh.'}};r.readAsText(f)})};
+})();
+</script>
+</body>
+</html>
+
+</body></html>
